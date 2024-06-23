@@ -2,11 +2,11 @@
 
 This repository contains a beginner-friendly Django project demonstrating the creation of a Coffee Shop web application. Learn how to use Django framework to build a simple yet functional web application where users can explore various coffee, tea, and milkshake options along with their prices. The application also includes a search feature for easy navigation.
 
-### Getting Started
+## Getting Started:
 
 Follow the steps below to set up and run the project locally:
 
-### Installation
+## Installation
 
 1. Clone the repository:
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 
-### Usage:
+## Usage:
 
 1. Navigate to the project directory where manage.py is located.
 
@@ -63,7 +63,7 @@ python manage.py runserver
 
 5. Open your web browser and go to http://127.0.0.1:8000/ to view the application.
 
-### Project Structure:
+## Project Structure:
 
 
 manage.py: Django project management script.
