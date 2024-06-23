@@ -66,12 +66,40 @@ python manage.py runserver
 ## Project Structure:
 
 
-manage.py: Django project management script.
-coffee_shop/: Main project folder.
-settings.py: Project settings including database configuration, static files, etc.
-urls.py: URL/path mapper for the project.
-coffee_app/: Django application folder.
-models.py: Database models for coffee shop items.
-views.py: Views handling HTTP requests and rendering templates.
-templates/: HTML templates for rendering pages.
-static/: Static files (CSS, JavaScript, images).
+
+```
+coffeeshop
+|
+|___ manage.py
+|___ coffee  (app)
+     |___ admin.py
+     |___ apps.py
+     |___ models.py
+     |___ tests.py
+     |___ urls.py
+     |___ views.py
+     |___ migrations (folder)
+     |___ Templates
+          |___ home.html
+          |___ base.html
+|___ coffeeshop (project)
+     |___ settings.py
+     |___ urls.py
+     |___ wsgi.py
+     |___ asgi.py
+    
+```
+
+
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/mansi-more-0943/"> ![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+
+
+
+
+
